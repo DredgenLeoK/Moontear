@@ -214,6 +214,11 @@ const memoryFragmentsData = [
     pt: "É a nossa vez de revidar, de agarrar o futuro no qual acreditamos plenamente. Ele não nos é dado; é conquistado.",
     image: "/images/games/persona_5.gif",
   },
+  {
+    en: "Live your life, day by day, before it all gets taken away",
+    pt: "Viva a sua vida, dia a dia, antes que tudo seja tirado",
+    image: "/images/games/persona_Q2.gif",
+  },
   // Metal Gear
   {
     en: "A strong man doesn't need to read the future. He makes his own.",
@@ -302,6 +307,7 @@ const memoryFragmentsData = [
     image: "/images/games/clair_obscur.jpg",
   },
 ];
+
 export default function MemoryFragments() {
   const [language, setLanguage] = useState<"en" | "pt">("en");
 

@@ -20,6 +20,7 @@ const vinyls = [
   { img: "/images/musics/elena_siegman.jpg", title: "Elena Siegman" },
   { img: "/images/musics/ozzy_osbourne.jpg", title: "Ozzy Osbourne" },
   { img: "/images/musics/freddie_dredd.jpg", title: "Freddie Dredd" },
+  { img: "/images/musics/yung_lixo.jpg", title: "Yung Lixo" },
 ];
 
 export default function VinylGallery() {
