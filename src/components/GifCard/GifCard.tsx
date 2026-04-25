@@ -4,10 +4,10 @@ import styles from './GifCard.module.css';
 interface GifCardProps {
   src: string;
   alt: string;
-  quote?: string;
+  interest?: string;
 }
 
-export default function GifCard({ src, alt, quote }: GifCardProps) {
+export default function GifCard({ src, alt, interest }: GifCardProps) {
   return (
     <div className={styles.gifItem}>
       <Image 
@@ -18,7 +18,7 @@ export default function GifCard({ src, alt, quote }: GifCardProps) {
         style={{ width: '100%', height: 'auto' }}
         unoptimized 
       />
-      {quote && <p>{quote}</p>}
+      {interest && <p>{interest}</p>}
     </div>
   );
 }
