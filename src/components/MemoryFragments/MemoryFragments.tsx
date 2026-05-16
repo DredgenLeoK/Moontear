@@ -306,6 +306,17 @@ const memoryFragmentsData = [
     pt: "Sabe, hobbies nem sempre precisam ser úteis. Estou aproveitando a inutilidade de hoje e preparando minha utilidade para o amanhã.",
     image: "/images/games/clair_obscur.jpg",
   },
+  // Fullmetal Alchemist
+  {
+    en: "So i'm sure we can change. Because we're weak. Because we die.",
+    pt: "Por isso sei que vamos conseguir mudar. Justamente porque somos fracos e porque a morte é inevitável.",
+    image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
+  },
+  {
+    en: "Snap out of it! Think about what lies ahead!",
+    pt: "Se Recomponha! Pense no futuro, não no passado!",
+    image: "/images/animes/fullmetal_alchemist_brotherhood.gif",
+  }
 ];
 
 export default function MemoryFragments() {
